@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UwU website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script src="validate.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Image Classification</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+      <label class="Btn" for="image-upload" class="custom-file-button">
+        <input id="image-upload" type="file" name="image" accept=".png,.jpg,.jpeg" style="display: none;">
+        <div class="sign">+</div>
+        <div class="text">Add</div>
+      </label>
+      <button class="button type1" type="submit">
+        <span class="btn-txt">Try it!</span>
+      </button>
+      <span id="error-message" class="error-message"></span>
+    </form>
+  </div>
+</body>
+</html>

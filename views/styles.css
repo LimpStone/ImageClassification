@@ -1,0 +1,159 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #b08ec2;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.error-message {
+  color: rgb(155, 74, 74);
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.container {
+  border-radius: 61px;
+  background: linear-gradient(45deg, #bc98d0, #9e80af);
+  box-shadow:  32px -32px 53px #8f739d,-32px 32px 53px #d1a9e7;
+  width: 300px;
+  padding: 30px;
+}
+
+.container h1 {
+  color: #333;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.container form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*//////////////////////////////////////////////////////////////////// BOTON NEGRO*/
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #333;
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* text */
+.text {
+  position: absolute;
+  left: 40%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 10px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 10%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 20px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px ,2px);
+}
+/*////////////////////////////////////////////////////////////////////*/
+.button {
+  height: 50px;
+  width: 200px;
+  position:relative ;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
+}
+
+
+.btn-txt {
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #333;
+  border-radius: 35px;
+  visibility: hidden;
+  height: 10px;
+  width: 1px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
