@@ -5,7 +5,9 @@ What do you need to run the server locally?
 
 1- Install node.js from their website https://nodejs.org/es (Repo made with v 18.16.0)
 
-2- Install all the server requirements  
+2- Download and put all files and folders inside of a folder named "public"
+
+3- Install all the server requirements  
 
     npm init -y
     npm install express multer
@@ -15,7 +17,7 @@ What do you need to run the server locally?
     npm install mime-types
     npm install uuid
 
-3- Install the python libraries
+4- Install the python libraries
 
     (pip -r) Fast way
     -------------------------
