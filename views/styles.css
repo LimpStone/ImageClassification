@@ -20,6 +20,7 @@ body {
   box-shadow:  32px -32px 53px #8f739d,-32px 32px 53px #d1a9e7;
   width: 300px;
   padding: 30px;
+  text-align: center;
 }
 
 .container h1 {
