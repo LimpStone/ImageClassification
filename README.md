@@ -9,4 +9,10 @@ What do you need to run the server locally?
     npm install express multer
     npm install ejs
     npm install python 
+    npm install path
+
 3- Install the python libraries
+    (pip -r) Fast way
+    -------------------------
+    pip install opencv-python
+    pip install sys
