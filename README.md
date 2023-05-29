@@ -13,6 +13,7 @@ What do you need to run the server locally?
     npm install python     
     npm install path
     npm install mime-types
+    npm install uuid
 
 3- Install the python libraries
 
