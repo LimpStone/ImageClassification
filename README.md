@@ -19,7 +19,8 @@ What do you need to run the server locally?
 
 4- Install the python libraries
 
-    (pip -r) Fast way
+    (pip intall -r req.txt) Fast way
     -------------------------
-    pip install opencv-python
+    pip install opencv-python-headless
     pip install sys
+    pip install numpy
