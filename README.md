@@ -24,3 +24,4 @@ What do you need to run the server locally?
     pip install opencv-python-headless
     pip install sys
     pip install numpy
+![brave_qSdc4ybDGh](https://github.com/LimpStone/ImageClassification/assets/69880372/ec5f0bd6-946e-4222-a3d6-12c0d9786df5)
